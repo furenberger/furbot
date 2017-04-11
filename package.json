@@ -1,0 +1,25 @@
+{
+  "name": "furbot",
+  "version": "1.0.0",
+  "description": "furenbergers botmasterai bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furenberger/furbot.git"
+  },
+  "author": "furenberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furenberger/furbot/issues"
+  },
+  "homepage": "https://github.com/furenberger/furbot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "botmaster-socket.io": "^1.0.2",
+    "dotenv": "^4.0.0"
+  }
+}
